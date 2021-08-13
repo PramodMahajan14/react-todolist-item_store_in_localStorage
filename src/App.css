@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: rgba(245, 222, 179, 0.432);
+}
+.main-div{
+  margin: auto;
+  width: 50%;
+  
+}
+.center-div{
+  margin: auto;
+  width: 40%;
+  margin-top:5rem ;
+  height: 25rem;
+  box-shadow: 1px 1px 1px 1px;
+ 
+  background: honeydew;
+  overflow-x: auto;
+  border-radius: 0.50rem;
+}
+input{
+  background: transparent;
+  border: none;
+  outline: none;
+  text-decoration: non;
+  border-bottom: solid  black;
+margin-left: 2rem;
+}
+h1{
+  background: rgb(63, 61, 180);
+  color: rgb(139, 226, 8);
+  box-shadow: 2px 4px 5px grey;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+  border-radius: 5rem;
+  background-color: rgb(67, 219, 67);
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 2px 1px black;
+ 
+}
+li{
+  font-size: 1.20rem;
+  margin-bottom: 1px;
+}
+.btn:hover{
+  background-color:white;
+  
+}
+.center-div .added{
+  align-items: end;
+}
+.added{
+cursor: "clear all";
+color: rebeccapurple;
+cursor:pointer;
+}
+.added:hover{font-size:1.70rem ;}
+.clearall{
+ margin-left: 14.3rem;
+  cursor: pointer;
+  margin-top: 0.10rem;
+  color: rgb(226, 177, 43);
+}
+.clearall:hover{font-size: 1.70rem;
+contain: 'hello';}
+.delete{
+  cursor: pointer;
+  color: red;
+}
+.delete:hover{font-size: 1.70rem;}
+.deleteorcheked{
+  text-align: end;
+  margin-top: -1.10rem;
+  padding: 0px;
+}
+@media only screen and (max-width:768px){
+  
+  .main-div,.center-div{
+    width: 85%;
+    height: 30rem;
+  }
+  .clearall{align-items: flex-end;}
+}
